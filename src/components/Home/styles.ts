@@ -56,13 +56,12 @@ export const ContentHome = styled.div`
             display: flex;
             align-items: center;
             flex-direction: column;
-            background-color:${props => props.theme["gray-100"]};
             font-size: 1rem;
             transition: all .5s;
-            color: ${props => props.theme["black-900"]};
+            color: ${props => props.theme.white};
 
             &:hover {
-                color: ${props => props.theme["blue-500"]};
+                color: ${props => props.theme["yellow-500"]};
                 transition: all .5s;
             }
         }
@@ -74,7 +73,7 @@ export const ImageHome = styled.div`
         width: 450px;
         height: 450px;
         border-radius: 50%;
-        box-shadow: 0 0 2rem ${props => props.theme["black-900"]};
+        box-shadow: 0 0 2rem ${props => props.theme["yellow-500"]};
         
 
         @media only screen and (max-width: 1024px) {

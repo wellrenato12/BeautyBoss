@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const ContactContainer = styled.footer`
     background: ${props => props.theme.white};
     width: 100%;
-    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 
     nav {
         display: flex;
@@ -27,6 +26,7 @@ export const ContactContainer = styled.footer`
                 display: flex;
                 align-items: center;
                 gap: .5rem;
+                color: ${props => props.theme.black};
 
                 img {
                     width: 30px;
@@ -37,10 +37,10 @@ export const ContactContainer = styled.footer`
                     align-items: center;
                     gap: .25rem;
                     transition: all .5s;
-                    color: ${props => props.theme["black-900"]};
+                    color: ${props => props.theme.black};
 
                 &:hover {
-                    color: ${props => props.theme["blue-500"]};
+                    color: ${props => props.theme["yellow-500"]};
                     transition: all .5s;
                 }
                 }

@@ -1,18 +1,19 @@
 import { ImageMakeup, MakeupContainer, TextMakeup } from "./styles";
 import { ArrowCircleRight, WhatsappLogo } from "phosphor-react";
 import Maquiagem from '../../assets/maquiagem6.png'
+import MakeUp from '../../assets/makeup.png'
 
 export function Makeup() {
     return (
         <MakeupContainer id="/makeup">
             <ImageMakeup>
-                <img src={Maquiagem} />
+                <img src={MakeUp} />
             </ImageMakeup>
             <TextMakeup>
                 <h1>Maquiagens</h1>
-                <p>Acompanhe meu trabalho pelas redes sociais.</p>
-                {/* <p>Veja abaixo algumas maquiagens feitas por mim.</p> */}
-                {/* <p>Click no botão abaixo e me envie uma mensagem para agendarmos.</p> */}
+                <p>
+                    <strong>Acompanhe meu trabalho pelas redes sociais.</strong>
+                </p>
                 <div>
                     <a href="https://www.instagram.com/beauty_boss04/" target="__blank">
                         Instagram

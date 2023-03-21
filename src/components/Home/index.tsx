@@ -12,7 +12,7 @@ export function Home() {
                 <p>Sou profissional de design de sobrancelhas e maquiagem.</p>                 
                 <p>
                     Me sigam nas redes sociais e acompanhem meu trabalho.
-                    <Heart size={24} color="#fa0000" />
+                    <Heart size={24} color="#fde047" />
                 </p>
                 <span>
                     <a href="https://www.tiktok.com/@thata_barbosa4" target="__blank">

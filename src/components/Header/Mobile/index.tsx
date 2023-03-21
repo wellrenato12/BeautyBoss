@@ -14,7 +14,7 @@ export function Mobile({ menuIsVisible, handleMenuIsVisible }: MobileProps) {
     }, [menuIsVisible])
     return (
         <MobileContainer menuIsVisible={menuIsVisible}>
-            <X size={45} onClick={() => handleMenuIsVisible(false)} />
+            <X size={45} color="#18181b" onClick={() => handleMenuIsVisible(false)} />
             <nav>
                 <div>
                     <ul>

@@ -1,6 +1,6 @@
 import { WhatsappLogo } from "phosphor-react";
 import { DesignContainer, ImageDesign, TextDesign } from "./styles";
-import Sobrancelha from '../../assets/sobrancelha1.jpg'
+import Sobrancelha from '../../assets/sobrancelha1.png'
 
 export function Design() {
     return (
@@ -9,7 +9,9 @@ export function Design() {
                 <h1>
                     Design de Sobrancelhas
                 </h1>
-                <p>Atendimento de segunda a sábado.</p>
+                <p>
+                    <strong>Atendimento de segunda a sábado.</strong>
+                </p>
                 <p></p>
                 <p>Click no botão abaixo e me envie uma mensagem para agendarmos.</p>
                 <a href="https://wa.me/556798362110" target="__blank">

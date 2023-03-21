@@ -42,6 +42,7 @@ export const MobileContainer = styled.div`
                 li {
                     a {
                         font-size: 2rem;
+                        color: ${props => props.theme.black};
                     }
                 }
             }

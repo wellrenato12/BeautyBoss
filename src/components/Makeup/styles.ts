@@ -8,8 +8,9 @@ export const MakeupContainer = styled.div`
     max-width: 1376px;
     margin: 0 auto 5rem;
     padding: 2rem;
-    background-color: #f1f1f1;
     border-radius: 12px;
+    background-color: ${props => props.theme["yellow-200"]};
+    color: ${props => props.theme.black};
 
     @media only screen and (max-width: 800px) {
         flex-direction: column;
@@ -63,7 +64,7 @@ export const TextMakeup = styled.div`
             display: flex;
             gap: .25rem;
             transition: all .5s;
-            color: ${props => props.theme["black-900"]};
+            color: ${props => props.theme.black};
 
             &:hover {
                 color: ${props => props.theme["blue-500"]};
@@ -88,12 +89,12 @@ export const TextMakeup = styled.div`
         border-radius: 8px;
         padding: 1rem;
         margin-top: 1rem;
-        background-color: ${props => props.theme["black-900"]};
+        background-color: ${props => props.theme.black};
         color: ${props => props.theme.white};
         transition: all .5s;
 
         &:hover {
-            box-shadow: 0 0 1rem ${props => props.theme["black-900"]};
+            box-shadow: 0 0 2rem ${props => props.theme.white};
             transition: all .5s;
         }
 
